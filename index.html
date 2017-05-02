@@ -1,0 +1,174 @@
+ <!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="w6.css">
+<style>
+body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
+.myLink {display: none}
+.bgimg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("img/pizza16.jpg");
+    min-height: 90%;
+
+  }
+</style>
+<body >
+
+  <!-- Navbar (sit on top) -->
+  <div class="w3-top">
+    <div class="w3-bar w3-white w3-padding w3-card-2" style="letter-spacing:4px;">
+    <a href="https://www.google.com"><img src="LOGO.png" width="100" height="50"></a>
+
+
+      <!-- Right-sided navbar links. Hide them on small screens -->
+      <div class="w3-right w3-hide-small">
+        <a href="#about" class="w3-bar-item w3-button">About</a>
+        <a href="#menu" class="w3-bar-item w3-button">Menu</a>
+        <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+        <i class="material-icons w3-spin w3-xxlarge">home</i>
+
+      </div>
+    </div>
+  </div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container " id="home">
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white w3-hide-small" style="font-size:80px">Paradise <br>Pizzeria & Cafe </span>
+    <span class="w3-text-white w3-hide-large w3-hide-medium" style="font-size:60px"><b>Paradise <br>Pizzeria & Cafe</b></span>
+    <p><a href="#menu" class="w3-button w3-xxlarge w3-black">Let me see the menu</a></p>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px;">
+  <div class="w3-panel w3-blue-gray w3-round-xlarge">
+      <p></p>
+    </div>
+  </div>
+
+  <!-- Good offers -->
+  <div class="w3-container w3-margin-top">
+  <h3>Paradise Pizzeria & Cafe </h3>
+  <h6> <strong></strong></h6>
+  </div>
+  <div class="w3-row-padding w3-text-white w3-large">
+    <div class="w3-half w3-margin-bottom">
+      <div class="w3-display-container">
+        <img src="pizza5.jpg" alt="Cinque Terre" style="width:100%">
+        <span class="w3-display-bottomleft w3-padding"></span>
+      </div>
+    </div>
+    <div class="w3-half">
+      <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-half w3-margin-bottom">
+          <div class="w3-display-container">
+            <img src="pizza9.jpg" alt="New York" style="width:100%">
+            <span class="w3-display-bottomleft w3-padding">Caramel Frappe</span>
+          </div>
+        </div>
+        <div class="w3-half w3-margin-bottom">
+          <div class="w3-display-container">
+            <img src="pizza4.jpg" alt="San Francisco" style="width:100%">
+            <span class="w3-display-bottomleft w3-padding">พิซซ่าไก่ย่างบาบีคิวกับ 4ชีส</span>
+          </div>
+        </div>
+      </div>
+      <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-half w3-margin-bottom">
+          <div class="w3-display-container">
+            <img src="pizza1.jpg" alt="Pisa" style="width:100%">
+            <span class="w3-display-bottomleft w3-padding">เมนูแนะนำ</span>
+          </div>
+        </div>
+        <div class="w3-half w3-margin-bottom">
+          <div class="w3-display-container">
+            <img src="pizza11.jpg" alt="Paris" style="width:100%">
+            <span class="w3-display-bottomleft w3-padding">เฟรนฟราย์ครีมชีส</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Explore Nature -->
+  <div class="w3-container">
+    <h3>Pizza Restaurants</h3>
+    <p></p>
+  </div>
+  <div class="w3-row-padding">
+    <div class="w3-half w3-margin-bottom">
+      <img src="pizza6.jpg" alt="Norway" style="width:100%">
+      <div class="w3-container w3-white">
+
+      </div>
+    </div>
+    <div class="w3-half w3-margin-bottom">
+      <img src="pizza13.jpg" alt="Austria" style="width:100%">
+      <div class="w3-container w3-white">
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Menu Container -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">THE MENU</span></h5>
+
+    <div class="w3-row w3-center w3-card-2 w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+        <div class="w3-col s6 tablink">เมนูแนะนำ</div>
+      </a>
+
+    </div>
+
+    <div id="Eat" class="w3-container menu w3-padding-48 w3-card-2">
+      <h5>พิซซ่าหน้ารวม4ชนิด</h5>
+      <p class="w3-text-black">พิซซ่าหน้าต้มยำอร่อยแบบลูกครึ่งไทยอิตาลี่</p><br>
+
+      <h5>พิซซ่าซอสมะเขือเทศ มอสซาเรล่าชีสและไส้กรอกอิตาเลี่ยนโฮมเมด</h5>
+      <p class="w3-text-grey">สปาเก็ตตี้พริกคั่ว</p><br>
+
+      <h5>สปาเก็ตตี้คาโบนาร่าและเบคอน</h5>
+      <p class="w3-text-grey">สปาเก็ตตี้ซีฟู้ด</p><br>
+
+      <h5>สปาเก็ตตี้พริกคั่ว</h5>
+      <p class="w3-text-grey">สปาเก็ตตี้คาโบนาร่าและเบคอน</p><br>
+
+      <h5>มาการิต้า</h5>
+      <p class="w3-text-grey">ผักโขมออบชีสแฮม</p>
+    </div>
+  <div class="w3-panel w3-blue-gray w3-round-xlarge">
+    <div class="w3-container">
+   <span class="w3-tag w3-spin w3-jumbo">
+   OPEN
+   </span>
+   </div>
+
+   <div class="w3-row">
+     <div class="w3-col s6">
+       <h1><p>Mon & Tue 06.00-12.00</p><h1>
+       <h1><p>Wednesday closed</p><h1>
+     <h1><p>Thursday closed</p><h1>
+     </div>
+     <div class="w3-col s6">
+       <h1><p>Friday 06.00-12.00</p><h1>
+       <h1><p>Saturday 06.00-12.00</p><h1>
+       <h1><p>Sunday 06.00-12.00</p><h1>
+     </div>
+   </div>
+
+
+
+</body>
+</html>
